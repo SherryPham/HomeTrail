@@ -36,14 +36,32 @@
       [
         "expo-font",
         {
-          "fonts": {
-            "Rubik-Bold": "./assets/fonts/Rubik-Bold.ttf",
-            "Rubik-ExtraBold": "./assets/fonts/Rubik-ExtraBold.ttf",
-            "Rubik-Medium": "./assets/fonts/Rubik-Medium.ttf",
-            "Rubik-Light": "./assets/fonts/Rubik-Light.ttf",
-            "Rubik-Regular": "./assets/fonts/Rubik-Regular.ttf",
-            "Rubik-SemiBold": "./assets/fonts/Rubik-SemiBold.ttf"
-          }
+          "fonts": [
+            {
+              "asset": "./assets/fonts/Rubik-Bold.ttf",
+              "family": "Rubik-Bold"
+            },
+            {
+              "asset": "./assets/fonts/Rubik-ExtraBold.ttf",
+              "family": "Rubik-ExtraBold"
+            },
+            {
+              "asset": "./assets/fonts/Rubik-Medium.ttf",
+              "family": "Rubik-Medium"
+            },
+            {
+              "asset": "./assets/fonts/Rubik-Light.ttf",
+              "family": "Rubik-Light"
+            },
+            {
+              "asset": "./assets/fonts/Rubik-Regular.ttf",
+              "family": "Rubik-Regular"
+            },
+            {
+              "asset": "./assets/fonts/Rubik-SemiBold.ttf",
+              "family": "Rubik-SemiBold"
+            }
+          ]
         }
       ]
     ],
